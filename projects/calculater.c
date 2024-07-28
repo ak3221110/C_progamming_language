@@ -125,9 +125,41 @@ void divi(){
         return 0;
      }}}
 int main(){
-    sum();
-    sub();
-    multi();
-    divi();
+   int chosise;
+    printf("\n\n\nWelcome to you my calculater!!!\n\n\n");
+    printf("LIMITATION is :It's can be  only perform any operation on the interger number\n");
+while (1){
+    printf("\n\n1. Addition\n");
+    printf("2. Substraction\n");
+    printf("3. Multiplection\n");
+    printf("4. Divisation\n");
+    printf("5. Exit\n");
+    printf("Enter any one link 1,2,3 etc: ");
+    scanf("%d",&chosise);
+   switch (chosise)
+    {
+    case 1:
+      sum();
+      break;
+
+   case 2:
+      sub();
+      break;
+
+   case 3:
+      multi();
+      break;
+
+   case 4:
+      divi();
+      break;
+
+
+   case 5:
+      return 0;
+    
+    }}
+
     return 0;
 }
+
