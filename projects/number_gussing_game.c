@@ -3,15 +3,15 @@
 #include<time.h>
 int main(){
     int e_number, g_number, attempt;
-    g_number=rand()/100+1;
-    printf("%d",g_number);
+    srand(time(NULL));
+    g_number=rand()%100+1;
     
     printf("\nWelcome to 'number gussing game'");
     printf("\nPlease enter any number between 1-100:   ");
     scanf("%d  \n",&e_number);
     attempt=0;
 
-    while (1){
+    do{
         attempt++;
         if (g_number < e_number)
         {
@@ -29,7 +29,7 @@ int main(){
           
         }
         
-    }
+    }while(1);
     
     printf("Developed By: ABHISHEK KUMAR");
 
