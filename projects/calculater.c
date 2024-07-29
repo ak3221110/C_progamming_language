@@ -1,5 +1,5 @@
 #include<stdio.h>
- void sum(){
+ int sum(){
     int a,b,c,d;
     int Option;
     printf("Enter First number:");
@@ -29,11 +29,12 @@
         printf("sorry Your result is:%d",c);
         return 0;
      }}
+     return 0;
      }
      
      
      
-void sub(){
+int sub(){
     int a,b,c,d,Option;
     
     printf("Enter First number:");
@@ -62,10 +63,12 @@ void sub(){
      else{
         printf("sorry Your result is:%d",c);
         return 0;
-     }}}
+     }}
+     return 0;
+     }
 
 
-void multi(){
+int multi(){
     int a,b,c,d,Option;
     
     printf("Enter First number:");
@@ -94,10 +97,12 @@ void multi(){
      else{
         printf("sorry Your result is:%d",c);
         return 0;
-     }}}
+     }}
+     return 0;
+     }
 
 
-void divi(){
+int divi(){
     int a,b,c,d,Option,modulas;
     
     printf("Enter First number:");
@@ -106,7 +111,7 @@ void divi(){
     scanf("%d",&b);
     c=a/b;
    modulas=a%b;
-    printf("Your Result is:   %d\n",a,b,c);
+    printf("Your Result is:   %d\n",c);
     printf("And modulas is:%d",modulas);
     while (1)
     {
@@ -133,7 +138,9 @@ void divi(){
         printf("sorry Your result is:%d",c);
         printf("And modulas is:%d",modulas);
         return 0;
-     }}}
+     }}
+     return 0;
+   }
 
 
 
