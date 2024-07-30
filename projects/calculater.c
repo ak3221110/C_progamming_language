@@ -154,7 +154,7 @@ while (1){
     printf("3. Multiplection\n");
     printf("4. Divisation\n");
     printf("5. Exit\n");
-    printf("Enter any one link 1,2,3 etc: ");
+    printf("Enter any one like 1,2,3 etc: ");
     scanf("%d",&chosise);
    switch (chosise)
     {
