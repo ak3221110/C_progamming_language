@@ -8,7 +8,7 @@ int main(){
     
     printf("\nWelcome to 'number gussing game'");
     printf("\nPlease enter any number between 1-100:   ");
-    scanf("%d  \n",&e_number);
+    scanf("%d",&e_number);
     attempt=0;
 
     do{
