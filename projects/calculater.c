@@ -147,14 +147,14 @@ int divi(){
 int main(){
    int chosise;
     printf("\n\n\nWelcome to you my calculater!!!\n\n\n");
-    printf("LIMITATION is :It's can be  only perform any operation on the interger number\n");
-while (1){
+    printf("LIMITATION:--It's can be  only perform any operation on the interger number\n");
+do{
     printf("\n\n1. Addition\n");
     printf("2. Substraction\n");
     printf("3. Multiplection\n");
     printf("4. Divisation\n");
     printf("5. Exit\n");
-    printf("Enter any one link 1,2,3 etc: ");
+    printf("Enter any one like 1,2,3,4,5: ");
     scanf("%d",&chosise);
    switch (chosise)
     {
@@ -175,12 +175,12 @@ while (1){
       break;
 
 
-   case 5:
+   case 5:printf("Developed By: **ABHISHEK KUMAR**");
       return 0;
     
-    }}
+    }}while(1);
 
-    printf("Developed By: ABHISHEK KUMAR");
+
 
     return 0;
 }
