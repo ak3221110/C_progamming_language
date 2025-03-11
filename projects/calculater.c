@@ -146,8 +146,9 @@ int divi(){
 
 int main(){
    int chosise;
-    printf("\n\n\nWelcome to you my calculater!!!\n\n\n");
+    printf("\n\n\nWelcome to you my calculator!!!\n\n\n");
     printf("LIMITATION:--It's can be  only perform any operation on the interger number\n");
+    printf("To peforme the task Enter a number accordingly shown before the task")
 do{
     printf("\n\n1. Addition\n");
     printf("2. Substraction\n");
