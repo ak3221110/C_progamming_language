@@ -15,12 +15,12 @@ int main(){
         attempt++;
         if (g_number < e_number)
         {
-           printf("Please Guss a smmaller number:");
+           printf("Please Guess a smmaller number:");
            scanf("%d",&e_number);
         }
         else if (g_number > e_number)
         {
-           printf("Please Guss a larger number:");
+           printf("Please Guess a larger number:");
            scanf("%d",&e_number);
         }
         else {
