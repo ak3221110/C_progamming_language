@@ -111,7 +111,7 @@ int divi(){
     scanf("%d",&b);
     c=a/b;
    modulas=a%b;
-    printf("Your Result is:   %d\n",c);
+    printf("Your Result is: %d\n",c);
     printf("And modulas is:%d",modulas);
     while (1)
     {
@@ -147,7 +147,7 @@ int divi(){
 int main(){
    int chosise;
     printf("\n\n\nWelcome to calculator!!!\n\n\n");
-    printf("LIMITATION:--It's can be only performed on "interger number"\n");
+    printf("LIMITATION:--It's can be only performed on interger number\n\n\n");
     printf("To peforme the task Enter a number accordingly shown before the task");
 do{
     printf("\n\n1. Addition\n");
@@ -155,7 +155,7 @@ do{
     printf("3. Multiplection\n");
     printf("4. Divisation\n");
     printf("5. Exit\n");
-    printf("Enter any one like 1,2,3,4,5: ");
+    printf("Enter any no. and press enter for the task 1,2,3,4,5: ");
     scanf("%d",&chosise);
    switch (chosise)
     {
