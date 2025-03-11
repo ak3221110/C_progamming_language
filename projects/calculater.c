@@ -12,7 +12,7 @@
     {
      
     
-    printf("\nAre you want Add another number please enter(0/1) \nhints 0 for no  1 for yes\n enter :");
+    printf("\nDo you want to Add another number please enter(0/1) \n--->Hints 0 for no  1 for yes\n enter :");
     scanf("%d",&Option);
      if (Option == 1)
      {
@@ -47,7 +47,7 @@ int sub(){
     {
      
     
-    printf("\nAre you want substract another number please enter(0/1) \nhints 0 for no  1 for yes\n enter :");
+    printf("\nDo you want to substract another number please enter(0/1) \n--->Hints 0 for no  1 for yes\n enter :");
     scanf("%d",&Option);
      if (Option == 1)
      {
@@ -81,7 +81,7 @@ int multi(){
     {
      
     
-    printf("\nAre you want substract another number please enter(0/1) \nhints 0 for no  1 for yes\n enter :");
+    printf("\nDo you want to substract another number please enter(0/1) \n--->Hints 0 for no  1 for yes\n enter :");
     scanf("%d",&Option);
      if (Option == 1)
      {
@@ -117,7 +117,7 @@ int divi(){
     {
      
     
-    printf("\nAre you want substract another number please enter(0/1) \nhints 0 for no  1 for yes\n enter :");
+    printf("\nDO you want to substract another number please enter(0/1) \n--->Hints 0 for no  1 for yes\n enter :");
     scanf("%d",&Option);
      if (Option == 1)
      {
@@ -146,9 +146,9 @@ int divi(){
 
 int main(){
    int chosise;
-    printf("\n\n\nWelcome to you my calculator!!!\n\n\n");
-    printf("LIMITATION:--It's can be  only perform any operation on the interger number\n");
-    printf("To peforme the task Enter a number accordingly shown before the task")
+    printf("\n\n\nWelcome to calculator!!!\n\n\n");
+    printf("LIMITATION:--It's can be only performed on "interger number"\n");
+    printf("To peforme the task Enter a number accordingly shown before the task");
 do{
     printf("\n\n1. Addition\n");
     printf("2. Substraction\n");
